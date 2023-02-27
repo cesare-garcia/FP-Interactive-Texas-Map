@@ -38,7 +38,7 @@ header {
 
 .header-icon {
     height: 50px;
-    width: 50px;
+    width: 70px;
     border: solid;
     border-color: #94261B;
 }
@@ -101,11 +101,20 @@ header {
 
 .main-info-container {
     display: flex;
-    flex-direction: column; 
     align-items: center;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .info-container {
