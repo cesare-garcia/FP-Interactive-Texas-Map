@@ -92,6 +92,18 @@ header {
     align-items: center;
 }
 
+.return-div {
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    padding-left: 15px;
+}
+
+.return-map {
+    text-align: left;
+    text-decoration: none;
+}
+
 .chair-image {
     height: 200px;
     width: 200px;
